@@ -1,2 +1,2 @@
-# plague-translate
-PLAGUE: Time Wanderer - Translate
+# PLAGUE: Time wanderer
+## Translate
