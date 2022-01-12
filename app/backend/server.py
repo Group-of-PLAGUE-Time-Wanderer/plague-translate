@@ -29,6 +29,7 @@ print(os.getcwd())
 app = flask.Flask(
     __name__,
     template_folder=os.path.abspath("./app/frontend/"),
+    static_folder=os.path.abspath("./ui/"),
 )
 
 app.add_url_rule("/", view_func=home_page)
