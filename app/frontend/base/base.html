@@ -3,7 +3,9 @@
   <head>
    <title>PLAGUE: Time Wanderer - Translate | {% block title %}Page{% endblock %}</title>
    <meta charset="utf-8" />
-   <link rel="stylesheet" href="data/base/base.css" />
+   <link rel="stylesheet" href="/ui/base/styles/header.css" />
+   <link rel="stylesheet" href="/ui/base/styles/nav.css" />
+   <link rel="stylesheet" href="/ui/base/styles/theme.css" />
    <link rel="shortcut icon" href="favicon.ico" />
    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon.png" />
    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
@@ -14,5 +16,18 @@
    <meta name="theme-color" content="#ffffff" />
    {% block link %}{% endblock %}
   </head>
+  <body>
+   <header>
+    <div id="title">
+     <img src="/ui/base/assets/plague.png" />
+     <a href="/"><h1>PLAGUE: Time Wanderer</h1></a>
+     <h2>Translate</h2>
+    </div>
+    <nav>
+     <a href="/languages/english">🇬🇧 English</a>
+     <a href="/languages/french">🇫🇷 French</a>
+    </nav>
+   </header>
+  </body>
  </html>
 <!-- END -->
